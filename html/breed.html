@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breed - Belgian Malinois</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/breed.css" />
+  </head>
+  <body>
+    <!-- NavBar  -->
+    <nav id="navbar" class="navbar sticky-top navbar-expand-md navbar-dark">
+      <!-- Brand -->
+      <img
+        class="top-image"
+        src="../image/icon/icon5.png"
+        alt="doggos icon"
+      />
+      <a id="top-link" class="navbar-brand" href="../ub4_index.html">DOGGOS</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="collapsibleNavbar"
+      >
+        <ul class="navbar-nav text-center">
+          <!-- Dropdown  -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbardrop"
+              data-toggle="dropdown"
+            >
+              STORY
+            </a>
+            <div class="dropdown-menu">
+              <button
+                type="button"
+                class="btn dropdown-item"
+                data-toggle="modal"
+                data-target="#exampleModal3"
+              >
+                CHAPTER 1: HOOMANS
+              </button>
+              <button
+                type="button"
+                class="btn dropdown-item"
+                data-toggle="modal"
+                data-target="#exampleModal3"
+              >
+                CHAPTER 2: CITY LIFE
+              </button>
+              <button
+                type="button"
+                class="btn dropdown-item"
+                data-toggle="modal"
+                data-target="#exampleModal3"
+              >
+                CHAPTER 3: OUTDOOR ADVENTURE
+              </button>
+              <button
+                type="button"
+                class="btn dropdown-item"
+                data-toggle="modal"
+                data-target="#exampleModal3"
+              >
+                CHAPTER 4: SAR TRAINING
+              </button>
+            </div>
+          </li>
+          <!-- End Dropdown  -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">BREED</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/daily.html">DAILY LIFE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/training.html">TRAINING</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      <!-- Modal -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true" >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModal3Label">
+            This Page Isn't Available</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body"> Gonna fill this out as I continue learning</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- End Modal  -->
+    <!-- End Navbar  -->
+    <!-- Header  -->
+    <header>
+      <div class="breed">
+        <h2>BELGIAN MALINOIS</h2>
+      </div>
+    </header>
+    <!-- End Header  -->    
+    <main>
+      <section class="container-fluid belgian clearfix">
+        <!-- Left image  -->
+        <div class="item">
+          <img class="image" src="../image/doggosImages/photo4.png" alt="Belgian Malinois Photo" >
+          <div class="bm">
+            <h3>About the Belgian Malinois</h3>
+            <!-- Button trigger modal Left Image -->
+            <button type="button" class="btn btnmodal" data-toggle="modal" data-target="#leftmodal">Learn More!
+            </button>
+          </div>
+        </div>
+        <!-- center image  -->
+        <div class="item">
+          <img class="image" src="../image/doggosImages/photo1.png" alt="K-9 in tha Spotlight photo" />
+          <div class="bm">
+            <h3>K-9 in the Spotlight</h3>
+            <button type="button" class="btn btnmodal" data-toggle="modal" data-target="#centermodal">Learn More!
+            </button>
+          </div>
+        </div>
+        <!-- right image  -->
+        <div class="item">
+          <img class="image" src="../image/doggosImages/photo5.png" alt="Owning a Belgian Malinois photo" />
+          <div class="bm">
+            <h3>Owning a Belgian Malinois</h3>
+            <button type="button" class="btn btnmodal" data-toggle="modal" data-target="#rightmodal">Learn More!
+            </button>
+          </div>
+        </div>
+        <!-- Modal -->
+        <!-- Left modal  -->
+            <div class="modal" id="leftmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenteredLabel">About the Belgian Malinois</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Belgian Malinois are squarely built, proud, and alert herders standing 22 to 26 inches. Strong and well-muscled, but more elegant than bulky, there’s an honest, no-frills look about them, as befit dogs built to work hard for their feed. A breed hallmark is the proud carriage of the head. Coat colors range from a rich fawn to mahogany. The black ears and mask accentuate bright, questioning eyes the color of dark Belgian chocolate <br> <br>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/4xIra4xAkb8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                
+                  
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Center modal  -->
+                        <div class="modal" id="centermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenteredLabel">Local K-9 team joins tests if dogs can sniff out coronavirus</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    They might soon give experts a hand—or a paw—in the complex and largely expensive process of finding out if you have COVID-19.
+                    <br> <br>
+                    A K-9 team in the country is currently undergoing an accuracy test to determine their reliability in sniffing out the presence of SARS-CoV-2, the virus that causes the severe respiratory disease.
+                    <br> <br>
+                    <img src="https://newsinfo.inquirer.net/files/2020/11/Front-Page95729-2048x1365.jpg" alt="Belgian Malinois on Newsinfo Inquirer">
+                    <br>
+                    According to Ryia Tabares of Universal K9 Services Philippines, the “coronavirus sniffing dogs”—if proven to be up to the task—can reduce the need for repetitive testing especially in hospitals, malls and other areas where the transmission rate is high.
+                    <br> <br>
+                    <img src="https://newsinfo.inquirer.net/files/2020/11/614688.jpeg" alt="Belgian Malinois on Newsinfo Inquirer">
+                    <br>
+                    DOH: Wait for studies
+                    The Department of Health (DOH), however, said it would be best to wait for completed studies involving sniffing dogs before COVID-19 strategies are updated.
+                    <br> <br>
+                    “It would be better if we would wait for the official results and recommendations of these studies before we introduce changes to our current policies,” the DOH said in a statement.
+                    <br> <br>
+                    Countries such as Finland and the United Arab Emirates have started testing if dogs can detect the virus, with their trials still in pilot stages and mostly done at airports, it added.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Right Modal  -->
+            <div class="modal " id="rightmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenteredLabel">Should you get a Belgian Malinois?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    The Belgian Malinois is not your typical family dog. They will need lots and patience. They are beautiful dogs and very, very smart, however, they are not your typical family dog. Famous for protecting livestock, the Belgian Malinois is now known for protecting man. They are great dogs. But with high work ethic, they need the perfect combination of stimulation, physical activity, and socialization. They do not work well for the average pet family.
+                    <br> <br>
+                    <img src="https://perroselite.com/wp-content/uploads/Perros-Elite-Hrz-Guardia-y-Proteccion-Mazuka-Pastor-Belga-Malinois-Seguridad-110.jpg" alt="Belgian Malinois Perros Elite Protection Dog photo">
+                     <br> <br>
+                    This breed is very active and will thrive on lots of regular and varied physical exercise and mental stimulation. Problems can arise when this smart, people-oriented dog is underemployed and neglected. Exercise, and plenty of it, preferably side by side with their adored owner. Intelligent and trainable, the Belgian Malinois possesses a strong desire to work and is happiest with regular activity and a job to do.
+                    <br> <br>
+                    Please don't rush out to get this breed because of some movie showing how cool they are. There are plenty of excellent pet candidates that look cool in shelter and rescues that will die bacause everyone wants a purebred bad ass dog.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section> 
+      <section class="malinios">
+        <h2>History</h2>
+        <p>The Belgian Malinois (MAL-in-wah), first bred around the city of Malines in the northwestern region of Belgium, are one of four closely related breeds of Belgian herding dogs. In some countries, the Malinois is classified together with the Tervuren, Laekenois, and Belgian Shepherd (aka Groenendael) as a single breed collectively known as the Belgian Sheepdog. In America, the Malinois has been registered as a separate breed since 1959. He bears a passing resemblance to the German Shepherd Dog but has a different head, and is leggier and finer boned, than his better-known German counterpart. <br> <br>
+        Mals have long been acknowledged as a peerless livestock herder in their native land. They were first bred by serious dog people who were primarily concerned with producing dogs of sterling working character and who spurned passing fads and fancies of pet owners. This emphasis on performance made the Mal the go-to dog for Belgian sheepherders and cattlemen.</p>
+      </section>     
+      <section class="baden">
+              <div class="video">
+                <iframe class="iframe" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBadenK9%2Fvideos%2F694253150947727%2F&show_text=false&width=560" width="450" height="300px" style="border:none;overflow:hidden" scrolling="no" frameborder="2" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              </div>
+      </section>
+    </main>
+        <!-- Footer  -->
+    <footer>
+      <div class="row3">
+        <p><q>more than just a pet</q></p>
+      </div>
+      <div class="row3 f-center">
+        <h3>Say Hello!</h3>
+        <a href="#"
+          ><img
+            class="icon"
+            src="../image/icon/icon1.png"
+            alt="Facebook icon"
+        /></a>
+        <a href="#"
+          ><img
+            class="icon"
+            src="../image/icon/icon2.png"
+            alt="Instagram icon"
+        /></a>
+        <a href="#"
+          ><img
+            class="icon"
+            src="../image/icon/icon3.png"
+            alt="Gmail icon"
+        /></a>
+        <a href="#"
+          ><img
+            class="icon"
+            src="../image/icon/icon4.png"
+            alt="Slack icon"
+        /></a>
+      </div>
+      <div class="row3">
+        <p>Van Mercado</p>
+      </div>
+    </footer>
+    <!-- End Footer  -->
+    <!-- Bootstrap  -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+body {
+  border-color: rgba(3, 3, 3, 0.925);
+}
+
+/* NAVBAR  */
+.navbar {
+  background-color: rgba(3, 3, 3, 0.932);
+  font-size: 20px;
+  padding: 2%;
+}
+.nav-link:hover {
+  transform: scale(1.2);
+  border-radius: 5px;
+  background-color: black;
+  border: 1px solid rgba(30, 211, 60, 0.555);
+  padding: 3px 6px;
+  z-index: 1;
+}
+#top-link {
+  font-size: 25px;
+  margin-left: 10px;
+}
+.top-image {
+  margin-left: 5%;
+  width: 40px;
+}
+/* END OF NAVBAR  */
+h1 {
+  padding: 1%;
+  text-align: center;
+  font-size: 36px;
+  color: rgb(3, 9, 39);
+  text-shadow: -2px 1px 2px rgb(147, 48, 240), -2px 2px 2px rgb(147, 48, 240);
+}
+/* Forms  */
+main {
+  background-image: url(../image/upmv/p8.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.mapouter {
+  padding: 3% 2%;
+}
+.forms {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.562);
+  margin-right: 3%;
+  margin-bottom: 50px;
+  padding: 6% 10%;
+  border: 3px solid black;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgb(0, 0, 0);
+}
+#submit {
+  text-align: right;
+}
+/* End Forms  */
+/* Map  */
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+}
+.frame {
+  border: 3px solid black;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 8px rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.616);
+}
+/* End Map  */
+/* Footer  */
+/* Footer  */
+footer {
+  height: 130px;
+  padding: 0px 1%;
+  background-color: rgba(3, 3, 3, 0.925);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.781);
+  border-top: 3px solid rgba(255, 255, 255, 0.856);
+  text-shadow: 5px 4px 5px rgba(34, 134, 34, 0.808);
+}
+.icon {
+  width: 18px;
+  margin: 7px 2px;
+}
+
+.row3 h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.f-center {
+  text-align: center;
+}
+.icon:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+/* End footer  */
+/* Media Query  */
+@media only screen and (min-width: 850px) {
+  h1 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .forms {
+    width: 380px;
+    padding: 1.5%;
+    margin-right: 5%;
+    margin-bottom: 0px;
+  }
+  .frame {
+    width: 700px;
+  }
+  .gmap_canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 7%;
+  }
+  /* footer -Media */
+  .row3 p {
+    font-size: 32px;
+  }
+  footer {
+    height: 160px;
+    padding: 3%;
+  }
+  .icon {
+    width: 40px;
+    margin: 7px 2px;
+  }
+
+  .row3 h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    /* end footer  */
+  }
+}
